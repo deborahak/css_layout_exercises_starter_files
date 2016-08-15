@@ -3,17 +3,20 @@
   padding-left: 60px;
 }
 nav{
-  padding-top: 10px;
+  padding-top: 20px;
   border: 1px solid black;
   text-align: left;
-  position: fixed;
-  height: 60px;
+  height: 100px;
   background-color: grey;
   width: 100%;
+  padding-bottom: 20px;
 }
 
+.img-circle{
+  border-radius: 50%;
+}
 nav .icon{
-  
+  height: 50px;
   left: 10px;
 }
 
@@ -43,10 +46,14 @@ body{
 .spacecat{
   position: absolute;
   width: 200px;
+  top: -113px;
+  left: -100px;
 }
 .spacedog{
   position: absolute;
   width: 200px;
+  top: 160px;
+  right: -100px;
 }
 
 
